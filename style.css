@@ -1,0 +1,38 @@
+/*  Delicious font  */
+h1 {
+  font-family: 'Yellowtail', cursive;
+}
+
+/* THE BEST BLOG ON THE WEB*/
+h3 {
+  font-family: 'Abel', sans-serif;
+}
+
+ /*chocolate pizza font */
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+#logo {
+  float: left;
+}
+
+ul {
+  text-align: center;
+  color: grey;
+  list-style: checkbox;
+}
+
+  /*#recipe {
+    display: block;
+    position: absolute;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 10px;
+    user-select: none;
+    background-color: clear;
+    border: purple;
+    width: 25px;
+    height: 25px;
+  }*/
