@@ -23,6 +23,23 @@ ul {
   list-style: checkbox;
 }
 
+fieldset{
+  border:2px solid gray;
+  padding:1em;
+  float:left;
+  font-family:Arial;
+}
+legend{
+  display:none;
+}
+h2{
+  border-bottom:2px solid gray;
+  margin:1em 0;
+}
+p{
+  margin:1em 0;
+}
+
   /*#recipe {
     display: block;
     position: absolute;
@@ -36,5 +53,3 @@ ul {
     width: 25px;
     height: 25px;
   }*/
-
-  

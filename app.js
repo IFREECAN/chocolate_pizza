@@ -1,15 +1,6 @@
 'use strict';
 
 
-
-
-
-
-
-
-
-
-
 // function myFunction() {
 //   // Get the checkbox
 //   var checkBox = document.getElementById('checkbox');
