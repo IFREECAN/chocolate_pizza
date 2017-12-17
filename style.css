@@ -13,6 +13,7 @@ h2 {
   font-family: 'Oswald', sans-serif;
 }
 
+/* bottom logo */
 #logo {
   float: left;
 }
@@ -23,12 +24,15 @@ ul {
   list-style: checkbox;
 }
 
+
+/* ingredient list */
 fieldset{
   border: none;
   padding: 1em;
   float: left;
   font-family: Arial;
   color: grey;
+  opacity: 1000;
 }
 
 
