@@ -1,7 +1,14 @@
 
+/* main text */
+body {
+  font-family: Georgia;
+  color: grey;
+}
+
 /*  Delicious font  */
 h1 {
   font-family: 'Yellowtail', cursive;
+  color: black;
 }
 
 /* THE BEST BLOG ON THE WEB*/
@@ -12,6 +19,7 @@ h3 {
  /*chocolate pizza font */
 h2 {
   font-family: 'Oswald', sans-serif;
+  color: black;
 }
 
 /* storeowner font */
