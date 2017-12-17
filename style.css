@@ -14,6 +14,14 @@ h2 {
   font-family: 'Oswald', sans-serif;
 }
 
+/* storeowner font */
+h4 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  color: grey;
+}
+
 ul {
   text-align: center;
   color: lightgrey;
@@ -22,7 +30,7 @@ ul {
 
 
 /* ingredient list */
-fieldset{
+fieldset {
   border: none;
   padding: 1em;
   float: left;
