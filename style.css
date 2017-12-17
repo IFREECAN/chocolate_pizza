@@ -14,11 +14,6 @@ h2 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* bottom logo */
-#logo {
-  float: left;
-}
-
 ul {
   text-align: center;
   color: lightgrey;
@@ -34,19 +29,22 @@ fieldset{
   font-family: 'Delius';
   color: grey;
   opacity: 1000;
+
 }
 
+/* share button */
+.share {
+  background-color: #f44336;
+  color: white;
+  width: 60%;
+  display: inline;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0px auto;
+}
 
-  #recipe {
+/* bottom logo */
+#logo {
     display: block;
-    position: absolute;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 10px;
-    user-select: none;
-    background-color: clear;
-    border: purple;
-    width: 25px;
-    height: 25px;
-  }
+    margin: auto;
+}
