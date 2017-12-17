@@ -1,3 +1,4 @@
+
 /*  Delicious font  */
 h1 {
   font-family: 'Yellowtail', cursive;
@@ -13,17 +14,30 @@ h2 {
   font-family: 'Oswald', sans-serif;
 }
 
+/* bottom logo */
 #logo {
   float: left;
 }
 
 ul {
   text-align: center;
-  color: grey;
-  list-style: checkbox;
+  color: lightgrey;
+  list-style: none;
 }
 
-  /*#recipe {
+
+/* ingredient list */
+fieldset{
+  border: none;
+  padding: 1em;
+  float: left;
+  font-family: 'Delius';
+  color: grey;
+  opacity: 1000;
+}
+
+
+  #recipe {
     display: block;
     position: absolute;
     padding-left: 35px;
@@ -35,4 +49,4 @@ ul {
     border: purple;
     width: 25px;
     height: 25px;
-  }*/
+  }
