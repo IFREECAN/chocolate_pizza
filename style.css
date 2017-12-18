@@ -1,6 +1,14 @@
+
+/* main text */
+body {
+  font-family: Georgia;
+  color: grey;
+}
+
 /*  Delicious font  */
 h1 {
   font-family: 'Yellowtail', cursive;
+  color: black;
 }
 
 /* THE BEST BLOG ON THE WEB*/
@@ -11,28 +19,48 @@ h3 {
  /*chocolate pizza font */
 h2 {
   font-family: 'Oswald', sans-serif;
+  color: black;
 }
 
-#logo {
-  float: left;
+/* storeowner font */
+h4 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  color: grey;
 }
 
 ul {
   text-align: center;
-  color: grey;
-  list-style: checkbox;
+  color: lightgrey;
+  list-style: none;
 }
 
-  /*#recipe {
+
+/* ingredient list */
+fieldset {
+  border: none;
+  padding: 1em;
+  float: left;
+  font-family: 'Delius';
+  color: grey;
+  opacity: 1000;
+
+}
+
+/* share button */
+.share {
+  background-color: #f44336;
+  color: white;
+  width: 60%;
+  display: inline;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0px auto;
+}
+
+/* bottom logo */
+#logo {
     display: block;
-    position: absolute;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 10px;
-    user-select: none;
-    background-color: clear;
-    border: purple;
-    width: 25px;
-    height: 25px;
-  }*/
+    margin: auto;
+}
